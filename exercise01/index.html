@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="title">
+      <h1>Kim YoungJae</h1>
+    </div>
+
+    <!-- 파트별로 block 처리하는 것이 교수 스타일 -->
+    <div>
+      <table>
+        <tr>
+          <td>
+            <h2>About Me</h2>
+            <p>
+              Hello. My name is Kim YoungJae and I am a student at Computer
+              science and engineering at SKKU. I love
+              <a href="www.skku.edu">User Interface Design.</a>
+            </p>
+          </td>
+          <td>
+            <img src="./exercise-material/profile.png" width="200" />
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div>
+      <h2>Classes</h2>
+      <table>
+        <thead>
+          <!--Table Head-->
+          <tr>
+            <th>Course Number</th>
+            <th>Course Title</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="text-align: center" colspan="2"><b>Fall 2023</b></td>
+            <!--두 열을 병합해서 가운데 있는 거였음-->
+          </tr>
+          <tr>
+            <td><a href="#">6.813</a></td>
+            <td>User Interface Design</td>
+          </tr>
+          <tr>
+            <td><a href="#">6.034</a></td>
+            <td>Artificial Intelligence</td>
+          </tr>
+          <tr>
+            <td><a href="#">6.006</a></td>
+            <td>Introduction to Algorithms</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div style="background-color: gray">
+      <h2 style="color: blue">Extracurriculars</h2>
+      <ul>
+        <li>Dance Team</li>
+        <li>Golf</li>
+        <li>Traveling</li>
+      </ul>
+    </div>
+    <table>
+      <tr>
+        <img src="./exercise-material/image1.jfif" width="120" />
+        <img src="./exercise-material/image2.jfif" width="120" />
+        <img src="./exercise-material/image1.jfif" width="120" />
+        <img src="./exercise-material/image2.jfif" width="120" />
+      </tr>
+    </table>
+
+    <div>
+      <h2>Contact</h2>
+      <form>
+        <div style="color: red">
+          <label for="email">Email:</label>
+          <input type="email" placeholder="Please Email" />
+        </div>
+        <div style="color: green">
+          <label for="message">Message:</label>
+          <input type="text" placeholder="Please write message" />
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <!-- 
+    <h3>About Me</h3>
+    <div class="about">
+      <p>
+        Hello. My name is Kim YoungJae and I am a student at Computer science
+        and engineering at SKKU. I love
+        <a href="www.skku.edu">User Interface Design.</a>
+      </p>
+      <img
+        class="profile_img"
+        src="./exercise-material/profile.png"
+        width="120"
+      />
+    </div>
+
+    <div>
+      <h3>Classes</h3>
+      <table>
+        <tr>
+          <td>Course Number</td>
+          <td>Course Title</td>
+        </tr>
+      </table>
+
+      <div class="classes">
+        <h4>Course Number</h4>
+        <h4>Course Title</h4>
+      </div>
+      <h4>Fall 2023</h4>
+      <div class="class_item">
+        <a href="#">6.813</a>
+        <p>User Interface Design</p>
+      </div>
+      <div class="class_item">
+        <a href="#">6.034</a>
+        <p>Artificial Intelligence</p>
+      </div>
+      <div class="class_item">
+        <a href="#">6.006</a>
+        <p>Introduction to Algorithms</p>
+      </div>
+    </div>
+
+    <div class="extracurriculars">
+      <h3>Extracurriculars</h3>
+      <ul>
+        <li>Dance Team</li>
+        <li>Golf</li>
+        <li>Traveling</li>
+      </ul>
+    </div>
+    <img src="./exercise-material/image1.jfif" width="120" />
+    <img src="./exercise-material/image2.jfif" width="120" />
+    <img src="./exercise-material/image1.jfif" width="120" />
+    <img src="./exercise-material/image2.jfif" width="120" />
+    <div>
+      <h3>Contact</h3>
+      <form>
+        <label class="email">Email:</label>
+        <input type="text" name="email" size="40" value="Please Email" /><br />
+        <label class="message">Message:</label>
+        <input type="text" name="message" size="40" value="Please Message" />
+      </form>
+    </div>
+    -->
+  </body>
+</html>

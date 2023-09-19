@@ -1,0 +1,39 @@
+body{
+    background-color: lightgray;
+}
+
+.title h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.profile_img{
+    display: block;
+}
+
+.about{
+    display: flex;
+}
+
+.classes h4{
+    display: inline-block;
+    margin-right: 30px;
+}
+.class_item{
+    display:flex;
+}
+.extracurriculars{
+    background-color: gray;
+}
+.extracurriculars h3{
+    color: blue;
+}
+
+.email{
+    color: red;
+}
+
+.message{
+    color:green;
+}
