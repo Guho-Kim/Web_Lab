@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<!-- The head tags include page information, e.g. metadata, as well as any included CSS and JS scripts. Everything in the head is loaded by the browser before the body. -->
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+  <style data-merge-styles="true"></style>
+  <!-- The title tag defines the page's title that shows up in the browser's tab bar -->
+  <title>Personal Homepage</title>
+
+
+  <!-- The body tags include all page content. These objects will be rendered on the page. -->
+
+<body>
+
+  <div style="background:lightgray">
+
+
+    <!-- The <h1> tag is a header tag of the largest size. -->
+    <Center>
+      <h1>Kim YoungJae</h1>
+    </Center>
+
+
+
+    <div>
+      <table>
+        <tr>
+          <td>
+            <!-- The <h2> tag is a header tag of the second largest size. -->
+            <h2>About Me</h2>
+            <!-- The <p> tag represents a paragraph of text. -->
+            <p>
+              Hello.
+              My name is Kim YoungJae and I am a student at Computer science and engineering at SKKU.
+              I love
+              <!--The <a> tag is a link.
+              The text between the <a> and </a> tags is the displayed text.
+              The href attribute has the link's target URL.-->
+              <a href="http://en.wikipedia.org/wiki/User_interface_design">User Interface Design</a>.
+            </p>
+          </td>
+          <td>
+            <!-- The <img> tag lets us add images. -->
+            <img width="200" src="./PersonalHomepage_files/profile.png">
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div>
+
+      <h2>Classes</h2>
+      <!--Tables can be used to group text or images into rows and columns-->
+      <table>
+        <thead>
+          <!--Each <tr> is a row-->
+          <tr>
+            <!--Each <th> or <td> is a cell.
+                  The number of cells in a row determines the number of columns in the table.
+                -->
+            <th>Course Number</th>
+            <th>Course Title</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <!--A <td> or cell can span multiple columns using the colspan attribute-->
+            <td style="text-align:Center" colspan="2"><b>Fall 2023</b></td>
+          </tr>
+          <!--We give certain rows the "currentlytaking" class, so we can color them differently in a CSS rule-->
+          <tr>
+            <td><a href="https://cs.skku.edu/">6.813</a></td>
+
+            <td>User Interface Design</td>
+          </tr>
+          <tr>
+            <td><a href="https://cs.skku.edu/">6.034</a></td>
+            <td>Artificial Intelligence</td>
+          </tr>
+          <tr>
+            <td><a href="https://cs.skku.edu/">6.006</a></td>
+            <td>Introduction to Algorithms</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div style="background:gray">
+      <h2 style="color:blue">Extracurriculars</h2>
+      <ul>
+        <li> Dance Team</li>
+        <li> Golf </li>
+        <li> Traveling</li>
+      </ul>
+    </div>
+
+    <table>
+      <tr>
+        <td><img width="150" src="./PersonalHomepage_files/image1.jfif"></td>
+        <td><img width="150" src="./PersonalHomepage_files/image2.jfif"></td>
+        <td><img width="150" src="./PersonalHomepage_files/image1.jfif"></td>
+        <td><img width="150" src="./PersonalHomepage_files/image2.jfif"></td>
+      </tr>
+    </table>
+    <div>
+      <div>
+        <!-- The <h2> tag is a header tag of the second largest size. -->
+        <h2>Contact</h2>
+        <!-- The <p> tag represents a paragraph of text. -->
+        <form>
+          <!--The form contains several <input> elements which receive info from the user.
+            Each <input> element has a 'type' attribute, which determines if it's a textbox, radio button, etc.-->
+          <div style="color:red">
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Please Email">
+          </div>
+          <div style="color:green">
+            <label for="message">Message</label>
+            <input type="text" placeholder="Please write message">
+          </div>
+          <!-- The <button> tag represents a button. -->
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
