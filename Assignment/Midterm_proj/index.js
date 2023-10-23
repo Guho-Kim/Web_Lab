@@ -18,7 +18,7 @@ function checkAccountFunction(){
   }
 }
 
-let count=5;//이거 static으로 가능한지?
+let count=5;
 function checkPinFunction(){
   let accountInput = document.getElementById("accountInput");
   if(accountInput.value!="1234" && count >0){
@@ -26,6 +26,9 @@ function checkPinFunction(){
     count=count-1;
   }
   else{
-    window.location.href = "index.html";
+    window.location.href = "./option/option.html";
   }
+}
+function returnFunction(){
+    window.location.href="index.html";
 }

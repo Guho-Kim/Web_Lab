@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SKKU ATM</title>
+    <link rel="stylesheet" href="option.css" />
+    <script src="option.js"></script>
+  </head>
+  <body>
+    <div>
+      <div>
+        <header>
+          <h1>WELCOME TO SKKU BANK</h1>
+        </header>
+      </div>
+        <div class="grid">
+          <div class="cards">
+            <div class="card" onclick="accountInfoFunction()">
+              <p>Account Information</p>
+            </div>
+            <div class="card" onclick="withdrawFundFunction()">
+              <p>Withdraw Funds</p>
+            </div>
+            <div class="card" onclick="depositFundFunction()">
+              <p>Deposit Funds</p>
+            </div>
+            <div class="card" onclick="transferFunction()">
+              <p>Transfer</p>
+            </div>
+          </div>
+        </div>
+        <button type="text" class="returnCard" onclick="returnFunction()">Return Card</button>
+  </body>
+</html>
