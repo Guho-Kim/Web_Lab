@@ -9,19 +9,22 @@ header h1 {
 
 .card:hover {
     background-color: lightgray;
-    /* 원하는 배경색으로 변경하세요 */
     cursor: pointer;
-    /* 마우스 커서 모양 변경 (선택 사항) */
 }
 
-.returnCard {
+.backCard {
     background-color: red;
     color: white;
-    border: 1px solid rgb(126, 29, 29);
+    border: 4px solid rgb(126, 29, 29);
     width: 100px;
     height: 40px;
     margin-top: 20px;
     margin-left: 400px;
+}
+
+.backCard:hover {
+    background-color: black;
+    cursor: pointer;
 }
 
 table {
@@ -29,15 +32,21 @@ table {
     width: 100%;
 }
 
-td,th {
+td,
+th {
     border: 1px solid black;
     text-align: left;
     padding: 8px;
 }
 
-tr:nth-child(even) {
+th {
+    background-color: whitesmoke;
+}
+
+tr:nth-child(odd) {
     background-color: #dddddd;
 }
-tr:nth-child(odd) {
+
+tr:nth-child(even) {
     background-color: whitesmoke;
 }

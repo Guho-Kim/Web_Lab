@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SKKU ATM</title>
+    <link rel="stylesheet" href="accountInfo.css" />
+
+
+</head>
+
+<body>
+    <div>
+        <div>
+            <header>
+                <h1>Account Information</h1>
+                <p>Current Balance: <span id="balance"></span></p>
+            </header>
+        </div>
+        <div>
+            <table>
+                <thead>
+
+                    <tr>
+                        <th>Date</th>
+                        <th>Funds Out</th>
+                        <th>Funds In</th>
+                        <th>Running Balance</th>
+                    </tr>
+                </thead>
+                <tbody id="data-table"></tbody>
+
+            </table>
+        </div>
+
+
+    </div>
+    <button type="text" class="backCard" onclick="backFunction()">Back</button>
+    <!--<script src="./../../../index.js"></script>-->
+    <script type="module" src="accountInfo.js"></script>
+</body>
+
+</html>

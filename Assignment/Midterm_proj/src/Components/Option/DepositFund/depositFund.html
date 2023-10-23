@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SKKU ATM</title>
+    <link rel="stylesheet" href="depositFund.css" />
+
+</head>
+
+<body>
+    <div>
+        <div>
+            <header>
+                <p>Enter the amount to deposit</p>
+            </header>
+        </div>
+        <form>
+            <input id="depositInput" type="text" placeholder="$0000.00" oninput="formatCurrency(this)" />
+        </form>
+        <div class="grid">
+            <div class="cards">
+                <div class="card" onclick="depositAppendFunction('1')">
+                    <p>1</p>
+                </div>
+                <div class="card" onclick="depositAppendFunction('2')">
+                    <p>2</p>
+                </div>
+                <div class="card" onclick="depositAppendFunction('3')">
+                    <p>3</p>
+                </div>
+                <div class="card" onclick="depositAppendFunction('4')">
+                    <p>4</p>
+                </div>
+                <div class="card" onclick="depositAppendFunction('5')">
+                    <p>5</p>
+                </div>
+                <div class="card" onclick="depositAppendFunction('6')">
+                    <p>6</p>
+                </div>
+                <div class="card" onclick="depositAppendFunction('7')">
+                    <p>7</p>
+                </div>
+                <div class="card" onclick="depositAppendFunction('8')">
+                    <p>8</p>
+                </div>
+                <div class="card" onclick="depositAppendFunction('9')">
+                    <p>9</p>
+                </div>
+                <div class="card" onclick="depositAppendFunction('0')">
+                    <p>0</p>
+                </div>
+                <div class="card" id="dot-card" onclick="depositAppendFunction('.')">
+                    <p>.</p>
+                </div>
+                <div class="card" onclick="depositDeleteFunction()">
+                    <p>Del</p>
+                </div>
+                <div class="card" id="enter-card" onclick="depositEnterFunction()">
+                    <p>Enter</p>
+                </div>
+            </div>
+        </div>
+        <button type="text" class="backCard" onclick="backFunction()">Back</button>
+    </div>
+    <script src="./../../../index.js"></script>
+    <script src="depositFund.js"></script>
+</body>
+
+</html>

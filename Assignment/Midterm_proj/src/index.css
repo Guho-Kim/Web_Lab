@@ -1,13 +1,14 @@
-html{
+html {
     background-color: rgb(217, 240, 248);
     text-align: center;
 }
-header h1{
+
+header h1 {
     color: rgb(70, 149, 122);
 }
 
-input{
-    text-align:center;
+input {
+    text-align: center;
     font-size: 18px;
     font-weight: bold;
     border-radius: 10px;
@@ -16,21 +17,25 @@ input{
     height: 25px;
     width: 250px;
 }
-.grid{
+
+.grid {
     margin-top: 20px;
     display: flex;
     justify-content: center;
 }
-.cards{
+
+.cards {
     display: grid;
     width: 180px;
     justify-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 10px;
-    
+
 }
-.card{
+
+.card {
+    font-weight: bold;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,23 +48,15 @@ input{
     height: 50px;
     width: 50px;
 }
-.card:nth-child(10){
+
+.card:nth-child(10) {
     color: rgb(67, 193, 67);
 }
-.card:nth-child(12){
-    color:red;
-}
-.card:hover {
-    background-color: lightgray; /* 원하는 배경색으로 변경하세요 */
-    cursor: pointer; /* 마우스 커서 모양 변경 (선택 사항) */
-  }
 
-  .returnCard{
-    background-color: red;
-    color: white;
-    border:1px solid rgb(126, 29, 29);
-    width: 100px;
-    height: 40px;
-    margin-top: 20px;
-    margin-left: 400px;
+.card:nth-child(12) {
+    color: red;
+}
+
+.card:hover {
+    cursor: pointer;
 }
