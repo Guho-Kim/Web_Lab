@@ -1,11 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SKKU ATM</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div>
+      <div>
+        <header>
+          <h1>SKKU ATM</h1>
+          <p>Enter your 16 digit account number or insert your card below:</p>
+        </header>
+      </div>
+        <form>
+          <input id="accountInput" type="password" placeholder="Enter Account Number" />
+        </form>
+        <div class="grid">
+          <div class="cards">
+            <div class="card" onclick="appendFunction('1')">
+              <p>1</p>
+            </div>
+            <div class="card" onclick="appendFunction('2')">
+              <p>2</p>
+            </div>
+            <div class="card" onclick="appendFunction('3')">
+              <p>3</p>
+            </div>
+            <div class="card" onclick="appendFunction('4')">
+              <p>4</p>
+            </div>
+            <div class="card" onclick="appendFunction('5')">
+              <p>5</p>
+            </div>
+            <div class="card" onclick="appendFunction('6')">
+              <p>6</p>
+            </div>
+            <div class="card" onclick="appendFunction('7')">
+              <p>7</p>
+            </div>
+            <div class="card" onclick="appendFunction('8')">
+              <p>8</p>
+            </div>
+            <div class="card" onclick="appendFunction('9')">
+              <p>9</p>
+            </div>
+            <div class="card" onclick="checkAccountFunction()">
+              <p>Enter</p>
+            </div>
+            <div class="card" onclick="appendFunction('0')">
+              <p>0</p>
+            </div>
+            <div class="card" onclick="deleteFunction()">
+              <p>Del</p>
+            </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
