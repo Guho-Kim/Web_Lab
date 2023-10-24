@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SKKU ATM</title>
+  <link rel="stylesheet" href="withdrawFund.css" />
+
+</head>
+
+<body>
+  <div>
+    <div>
+      <header>
+        <p>Quick Links</p>
+        <p>Quick Links</p>
+        
+      </header>
+    </div>
+
+    <div class="container">
+      <div class="grid left">
+        <div class="card" onclick="setFunction('20')">
+          <p>20</p>
+        </div>
+        <div class="card" onclick="setFunction('40')">
+          <p>40</p>
+        </div>
+        <div class="card" onclick="setFunction('60')">
+          <p>60</p>
+        </div>
+        <div class="card" onclick="setFunction('80')">
+          <p>80</p>
+        </div>
+      </div>
+      <div class="grid center">
+        <div class="inc_100" onclick="incFunction(100)">
+        </div>
+        <div class="inc_20" onclick="incFunction(20)">
+        </div>
+        <div class="form">
+          <span class="empty-left"></span>
+          <form>
+            <input id="withdrawInput" type="number"/>
+          </form>
+          <span class="empty-right"></span>
+          <button type="text" class="enterCard" onclick="enterFunction()">Enter</button>
+        </div>
+        <div class="dec_20" onclick="decFunction(20)">
+        </div>
+        <div class="dec_100" onclick="decFunction(100)">
+        </div>
+      </div>
+      
+      <div class="grid right">
+        <div class="card" onclick="setFunction('100')">
+          <p>100</p>
+        </div>
+        <div class="card" onclick="setFunction('200')">
+          <p>200</p>
+        </div>
+        <div class="card" onclick="setFunction('300')">
+          <p>300</p>
+        </div>
+        <div class="backCard" onclick="backFunction()">
+          <p>Back</p>
+        </div>
+      </div>
+
+    </div>
+    
+  </div>
+  <script src="withdrawFund.js"></script>
+</body>
+
+</html>
