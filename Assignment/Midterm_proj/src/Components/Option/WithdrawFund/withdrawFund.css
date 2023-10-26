@@ -47,6 +47,7 @@ input {
 .card:hover{
     background-color: rgba(0, 0, 0, 0.195);
     color:black;
+    cursor: pointer;
 }
 .container{
     display: flex;

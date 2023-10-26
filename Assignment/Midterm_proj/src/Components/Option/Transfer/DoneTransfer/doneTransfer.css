@@ -1,0 +1,55 @@
+html {
+    background-color: rgb(217, 240, 248);
+    text-align: center;
+}
+
+header p{
+    font-size: 20px;
+}
+.grid{
+    display:flex;
+    justify-content: center;
+}
+.homeCard {
+    background-color: rgba(10, 10, 62, 0.716);
+    color: white;
+    border: 4px solid rgb(5, 12, 51);
+    border-radius: 5px;
+    width: 60px;
+    height: 30px;
+    font-size:10px;
+    margin: 10px
+}
+.againCard {
+    background-color: rgba(10, 10, 62, 0.716);
+    color: white;
+    border: 4px solid rgb(5, 12, 51);
+    border-radius: 5px;
+    width: 150px;
+    height: 30px;
+    font-size:10px;
+    margin: 10px
+}
+.returnCard {
+    background-color: red;
+    color: white;
+    border: 4px solid rgb(197, 77, 77);
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    font-size:10px;
+    margin: 10px
+}
+.homeCard:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+.againCard:hover{
+    background-color: black;
+    cursor: pointer; 
+}
+.returnCard:hover{
+    background-color: black;
+    cursor: pointer; 
+}

@@ -1,5 +1,3 @@
-
-
 function appendFunction(value) {
   let accountInput = document.getElementById("accountInput");
   accountInput.value += value;

@@ -5,7 +5,7 @@ html {
 
 header h1 {
     color: rgb(70, 149, 122);
-    font-size: 22px;
+    font-size: 50px;
 }
 header p{
     font-size: 25px;
@@ -24,8 +24,6 @@ header p{
     background-color: green;
     cursor: pointer;
 }
-
-
 .noCard {
     background-color: red;
     color: white;
@@ -36,7 +34,6 @@ header p{
     font-size: 20px;
     margin: 10px
 }
-
 .noCard:hover{
     background-color: rgb(55, 13, 13);
     cursor: pointer; 

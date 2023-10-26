@@ -21,6 +21,7 @@ header p{
     margin: 10px
 }
 .okCard:hover{
-    background-color: black;
+    background-color: rgb(142, 212, 237);
+    color: black;
     cursor: pointer; 
 }

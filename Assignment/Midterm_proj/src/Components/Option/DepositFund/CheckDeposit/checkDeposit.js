@@ -4,7 +4,7 @@ depositElement.textContent = depositAmount;
 
 
 function noFunction() {
-    location.href = "./../../option.html";
+    location.href = "./../depositFund.html";
 }
 
 function yesFunction() {
