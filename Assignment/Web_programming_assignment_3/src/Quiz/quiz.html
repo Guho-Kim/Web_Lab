@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Python Quiz</title>
+  <link rel="stylesheet" href="quiz.css" />
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <!-- <script src="./../jquery-3.7.1.min.js"></script> -->
+  <script src="quiz.js"></script>
+</head>
+
+<body>
+  <div class="quiz">
+    <div class="info">
+      <div class="question">
+        <div class="question_box">
+          <p>Question <span id="chance">1</span>/4</p>
+          <div class="question_bar">
+            <div class="question_gage">
+
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+      <div class="score">
+        <div class="score_box">
+          <p>Score</p>
+          <span id="score">0</span>
+
+        </div>
+      </div>
+    </div>
+    <h1 id="question_sentence">Which one is NOT a legal variable name?</h1>
+    <div class="problems">
+      <div class="problem" id="A">
+        <p>A</p>
+        <span>_myvar</span>
+      </div>
+      <div class="problem" id="B">
+        <p>B</p>
+        <span>Myvar</span>
+      </div>
+      <div class="problem" id="C">
+        <p>C</p>
+        <span>my_var</span>
+      </div>
+      <div class="problem" id="D">
+        <p>D</p>
+        <span>my-var</span>
+      </div>
+    </div>
+  </div>
+  <div class="modal">
+    <div class="again_info">
+      <h1>Total score: <span id="total_score"></span></h1>
+      <button id="again_button">Play Again</button>
+    </div>
+  </div>
+</body>
+
+</html>
