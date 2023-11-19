@@ -1,12 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>proj4</title>
+    <link rel="stylesheet" href="css/style.css" />
+
 </head>
+
 <body>
+    <div>
+        <!-- nav -->
+        <div class="nav">
+            <div class="login-header">
+                <div class="login-gage"></div>
+                <div id="login">Login</div>
+            </div>
+            <div class="sign-up-header">
+                <div class="sign-up-gage"></div>
+                <div id="sign-up">Sign Up</div>
+            </div>
+        </div>
+        <!-- nav end-->
+        <div class="main">
+            <div class="section">
+                <!-- modal 1 -->
+                <div class="login-section">
+                    <h5>Login</h5>
+                    <p class="login-msg">Enter user name and password:</p>
+                    <form>
+                        <p>Email</p>
+                        <input class="login-email-input input-box" type="text" placeholder="Email">
+                        <img class="login-email-check-mark check-mark" src="./img/check-mark.png" alt="checkmark">
+                        <div class="login-email-msg error-msg"></div>
+
+                        <p>Password</p>
+                        <input class="login-password-input input-box" type="password" placeholder="Password">
+                        <img class="login-password-check-mark check-mark" src="./img/check-mark.png" alt="checkmark">
+                        <div class="login-password-msg error-msg"></div>
+                    </form>
+                    <div class="login-button">Login</div>
+                </div>
+                <!-- modal 2 -->
+                <div class="sign-up-section">
+                    <h5>Sign up</h5>
+                    <p>Fill in the form:</p>
+                    <form>
+                        <p>First name</p>
+                        <input class="first-name-input input-box" type="text" placeholder="First name">
+                        <img class="first-name-check-mark check-mark" src="./img/check-mark.png" alt="checkmark">
+                        <div class="first-name-msg error-msg"></div>
+
+                        <p>Last name</p>
+                        <input class="last-name-input input-box" type="text" placeholder="Last name">
+                        <img class="last-name-check-mark check-mark" src="./img/check-mark.png" alt="checkmark">
+                        <div class="last-name-msg error-msg"></div>
+                        
+                        <div class="gender">
+                            <input type="radio" name="gender" value="male"> Male
+                            <input type="radio" name="gender" value="female"> Female
+                            <span></span>
+                            <img class="gender-check-mark check-mark" src="./img/check-mark.png" alt="checkmark">
+                            <div class="gender-msg error-msg"></div>
+                        </div>
+
+                        <p>Email</p>
+                        <input class="email-input input-box" type="text" placeholder="Email">
+                        <img class="email-check-mark check-mark" src="./img/check-mark.png" alt="checkmark">
+                        <div class="email-msg error-msg"></div>
+
+                        <p>Password</p>
+                        <input class="password-input input-box" type="password" placeholder="Password">
+                        <img class="password-check-mark check-mark" src="./img/check-mark.png" alt="checkmark">
+                        <div class="password-msg error-msg"></div>
+
+                        <p>Confirm password</p>
+                        <input class="confirm-password-input input-box" type="password" placeholder="Confirm password">
+                        <img class="confirm-password-check-mark check-mark" src="./img/check-mark.png" alt="checkmark">
+                        <div class="confirm-password-msg error-msg"></div>
+                    </form>
+                    <div class="sign-up-button">Sign Up</div>
+
+                </div>
+                <!-- modal 3 -->
+                <div class="logged-in">
+                    <h5>You are logged in.</h5>
+                </div>
+                <!-- modal 4 -->
+                <div class="signed-up">
+                    <h5>You are signed up.</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <script src="js/jquery.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
